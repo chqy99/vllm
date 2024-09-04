@@ -34,3 +34,5 @@ __all__ = [
     "initialize_ray_cluster",
     "PoolingParams",
 ]
+
+import vllm.mlu_hijack.mlu_hijack
